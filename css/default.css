@@ -117,7 +117,6 @@ nav .pa-menu li .ch-menu li a:hover{
 
 .second-section{
     display: flex;
-    flex-direction: row wrap;
 }
 .notice, .gallary, .banner{
     float: left;
