@@ -60,30 +60,24 @@ nav .pa-menu li .ch-menu li a:hover{
     background-color: blue;
 }
 
-#slider-wrap{
+.slider .inner{
     height: 300px;
-    width:100%;
     position: relative;
     overflow: hidden;
 }
-#slider-wrap ul#slider{
-    height: 100%;
+/*fade*/
+.slider .img-box{
     position: absolute;
-    top:0;
     left:0;
+    top:50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 1s;
 }
-#slider-wrap ul#slider li{
-    float: left;
-    position: relative;
-    height: 300px;
+.slider .img-box:first-child{
     opacity: 1;
-    transition: 3s;
 }
-#slider-wrap ul#slider li img{
-    display:block;
-    width: 100%;
-    /* height: 100%; */
-}
+
 .btn{
     position: absolute;
     width:50px;
