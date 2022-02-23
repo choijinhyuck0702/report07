@@ -44,7 +44,7 @@ nav .pa-menu li .ch-menu{
     z-index: 100;
     position: absolute;
     left:0;
-    top:50px;
+    top:49px;
     background-color: brown;
 }
 nav .pa-menu>li>a.active .ch-menu{
